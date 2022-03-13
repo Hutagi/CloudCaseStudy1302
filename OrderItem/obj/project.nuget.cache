@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VHS9uz9OoKu/U9C6Q8mvCKX/DuJ17GTSm821LUx2QA6cZftF0g6ghrtB+5Up/529nZGRHcLFjZDCqAYlrMf4eA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aishwarya Hutagi\\source\\repos\\OrderItem\\OrderItem\\OrderItem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aishwarya Hutagi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
+    "C:\\Users\\Aishwarya Hutagi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
