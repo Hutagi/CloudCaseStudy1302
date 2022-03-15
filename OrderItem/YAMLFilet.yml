@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: cloudCasecontainerregistry14022
-        image: cloudcasecontainerregistry14022.azurecr.io/cloudcasecontainer2repo:latest
+        image: cloudcasecontainerregistry14022.azurecr.io/cloudcasecontainerrepo:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
