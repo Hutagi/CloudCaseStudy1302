@@ -1,0 +1,35 @@
+﻿apiVersion: apps/v1
+
+kind: Deployment
+metadata:
+  name: orderitem-deployment
+  labels:
+    app: OrderItem
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: OrderItem 
+  template:
+    metadata:
+      labels:
+        app: OrderItem
+    spec:
+      containers:
+      - name: cloudCasecontainerregistry14022
+        image: cloudcasecontainerregistry14022.azurecr.io/cloudcasecontainer2repo:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: webapisvcsecrett
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name:  orderitem
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app:  OrderItem
